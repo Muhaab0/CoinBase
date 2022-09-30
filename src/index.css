@@ -138,3 +138,37 @@ a {
  ::-webkit-scrollbar-thumb {
   background-color: var(--blue);
  }
+ 
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  nav,
+  section {
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .gap {
+    gap: 1rem;
+  }
+
+  .gap-1 {
+    gap: 0.5rem;
+  }
+
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  .half-width {
+    width: 80vw;
+    height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
+  }
+}
